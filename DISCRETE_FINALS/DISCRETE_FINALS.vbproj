@@ -80,6 +80,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="EigthTopicWindow.Designer.vb">
+      <DependentUpon>EigthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EigthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EleventhTopicWindow.Designer.vb">
+      <DependentUpon>EleventhTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EleventhTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FifthteenthTopicWindow.Designer.vb">
+      <DependentUpon>FifthteenthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FifthteenthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FifthTopicWindow.Designer.vb">
+      <DependentUpon>FifthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FifthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstTopicWindow.Designer.vb">
+      <DependentUpon>FirstTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FirstTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourthteenthTopicWindow.Designer.vb">
+      <DependentUpon>FourthteenthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FourthteenthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourthTopicWindow.Designer.vb">
+      <DependentUpon>FourthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FourthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainWindow.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -108,14 +150,83 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NinethTopicWindow.Designer.vb">
+      <DependentUpon>NinethTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NinethTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecondTopicWindow.Designer.vb">
+      <DependentUpon>SecondTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SecondTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventhTopicWindow.Designer.vb">
+      <DependentUpon>SeventhTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SeventhTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SixthTopicWindow.Designer.vb">
+      <DependentUpon>SixthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SixthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TenthTopicWindow.Designer.vb">
+      <DependentUpon>TenthTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TenthTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirdTopicWindow.Designer.vb">
+      <DependentUpon>ThirdTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirteethTopicWindow.Designer.vb">
+      <DependentUpon>ThirteethTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThirteethTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TopicsWindow.Designer.vb">
       <DependentUpon>TopicsWindow.vb</DependentUpon>
     </Compile>
     <Compile Include="TopicsWindow.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TwelvethTopicWindow.Designer.vb">
+      <DependentUpon>TwelvethTopicWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TwelvethTopicWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EigthTopicWindow.resx">
+      <DependentUpon>EigthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EleventhTopicWindow.resx">
+      <DependentUpon>EleventhTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FifthteenthTopicWindow.resx">
+      <DependentUpon>FifthteenthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FifthTopicWindow.resx">
+      <DependentUpon>FifthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstTopicWindow.resx">
+      <DependentUpon>FirstTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourthteenthTopicWindow.resx">
+      <DependentUpon>FourthteenthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourthTopicWindow.resx">
+      <DependentUpon>FourthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.vb</DependentUpon>
     </EmbeddedResource>
@@ -128,8 +239,32 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NinethTopicWindow.resx">
+      <DependentUpon>NinethTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondTopicWindow.resx">
+      <DependentUpon>SecondTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventhTopicWindow.resx">
+      <DependentUpon>SeventhTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SixthTopicWindow.resx">
+      <DependentUpon>SixthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TenthTopicWindow.resx">
+      <DependentUpon>TenthTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirdTopicWindow.resx">
+      <DependentUpon>ThirdTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirteethTopicWindow.resx">
+      <DependentUpon>ThirteethTopicWindow.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TopicsWindow.resx">
       <DependentUpon>TopicsWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwelvethTopicWindow.resx">
+      <DependentUpon>TwelvethTopicWindow.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +279,42 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intersection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Union.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fibonacci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GCD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geometric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FactorialRecursive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Array.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D%27Morgan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -1,5 +1,8 @@
 ﻿Public Class Members
-    Private Sub Members_Load(sender As Object, e As EventArgs) Handles Me.Load
-        MembersPanel.HorizontalScroll.Visible = False
+
+#Region "Click Events"
+    Private Sub Button_Event_Click(sender As Object, e As EventArgs)
+
     End Sub
+#End Region
 End Class

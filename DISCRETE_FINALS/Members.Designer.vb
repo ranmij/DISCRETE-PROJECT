@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Members
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,10 +20,9 @@ Partial Class Members
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.ModalStyle = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.MembersPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -32,7 +31,6 @@ Partial Class Members
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.MembersBottomPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.NinethTopicButton = New Guna.UI2.WinForms.Guna2TileButton()
         Me.Guna2CirclePictureBox6 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox5 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox4 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
@@ -41,7 +39,6 @@ Partial Class Members
         Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.ModalAnimation = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.MembersPanel.SuspendLayout()
-        Me.MembersBottomPanel.SuspendLayout()
         CType(Me.Guna2CirclePictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,14 +46,6 @@ Partial Class Members
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'ModalStyle
-        '
-        Me.ModalStyle.BorderRadius = 5
-        Me.ModalStyle.ContainerControl = Me
-        Me.ModalStyle.DockIndicatorTransparencyValue = 0.6R
-        Me.ModalStyle.ResizeForm = False
-        Me.ModalStyle.TransparentWhileDrag = True
         '
         'MembersPanel
         '
@@ -142,31 +131,11 @@ Partial Class Members
         '
         'MembersBottomPanel
         '
-        Me.MembersBottomPanel.Controls.Add(Me.NinethTopicButton)
         Me.MembersBottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.MembersBottomPanel.Location = New System.Drawing.Point(0, 500)
         Me.MembersBottomPanel.Name = "MembersBottomPanel"
         Me.MembersBottomPanel.Size = New System.Drawing.Size(471, 73)
         Me.MembersBottomPanel.TabIndex = 6
-        '
-        'NinethTopicButton
-        '
-        Me.NinethTopicButton.BorderThickness = 2
-        Me.NinethTopicButton.CustomBorderColor = System.Drawing.Color.Black
-        Me.NinethTopicButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.NinethTopicButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.NinethTopicButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.NinethTopicButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.NinethTopicButton.Font = New System.Drawing.Font("Segoe UI Light", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NinethTopicButton.ForeColor = System.Drawing.Color.White
-        Me.NinethTopicButton.HoverState.BorderColor = System.Drawing.Color.Gray
-        Me.NinethTopicButton.HoverState.FillColor = System.Drawing.Color.Black
-        Me.NinethTopicButton.HoverState.ForeColor = System.Drawing.Color.White
-        Me.NinethTopicButton.Location = New System.Drawing.Point(285, 19)
-        Me.NinethTopicButton.Name = "NinethTopicButton"
-        Me.NinethTopicButton.Size = New System.Drawing.Size(130, 31)
-        Me.NinethTopicButton.TabIndex = 12
-        Me.NinethTopicButton.Text = "Ok"
         '
         'Guna2CirclePictureBox6
         '
@@ -240,14 +209,15 @@ Partial Class Members
         Me.ClientSize = New System.Drawing.Size(488, 415)
         Me.Controls.Add(Me.MembersPanel)
         Me.Font = New System.Drawing.Font("Segoe UI Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.Name = "Members"
+        Me.ShowIcon = False
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Members"
         Me.MembersPanel.ResumeLayout(False)
         Me.MembersPanel.PerformLayout()
-        Me.MembersBottomPanel.ResumeLayout(False)
         CType(Me.Guna2CirclePictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -257,8 +227,6 @@ Partial Class Members
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents ModalStyle As Guna.UI2.WinForms.Guna2BorderlessForm
     Friend WithEvents MembersPanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -274,5 +242,4 @@ Partial Class Members
     Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents ModalAnimation As Guna.UI2.WinForms.Guna2AnimateWindow
-    Friend WithEvents NinethTopicButton As Guna.UI2.WinForms.Guna2TileButton
 End Class

@@ -22,5 +22,65 @@ DISCRETE_FINALS
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.Array">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.back_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.D_Morgan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.FactorialRecursive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.Fibonacci">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.GCD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.Geometric">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.Intersection">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.Recursive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.right_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.undo__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DISCRETE_FINALS.My.Resources.Resources.Union">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
